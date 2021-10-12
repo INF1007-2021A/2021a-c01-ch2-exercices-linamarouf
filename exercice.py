@@ -5,6 +5,7 @@ def Majuscule(mot):
     nvmot=''
     for lettre in mot:
         nvmot+= chr(ord(lettre)-32)
+
     return nvmot
 
 
