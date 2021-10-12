@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-def majuscule(mot):
+def Majuscule(mot):
     # TODO completer la fonction ici
-    return mot
+    return (mot.upper())
 
 
 if __name__ == '__main__':
@@ -16,6 +16,6 @@ if __name__ == '__main__':
         'arbre'
     ]
     for i in range(len(mots)):
-        mots[i] = majuscule(mots[i])
+        mots[i] = Majuscule(mots[i])
 
     print(mots)
